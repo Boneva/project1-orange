@@ -177,3 +177,105 @@ nav ul li a {
 .footer-locations p {
     margin: 5px 0;
 }
+
+#page1 header {
+    font-family: Arial, Helvetica, sans-serif;
+    color:#f0f0f0;
+    margin: 0 auto;
+}
+
+#page1 .About {
+    background: url(Images/about-our-philosophy-bg.jpeg) ;
+    background-size: 1500px;
+    background-position: center;
+    height: 300px;
+
+}
+
+#page1 .About2 {
+    background: url(Images/about-we-do-a-pretty-good-job-bg.jpeg);
+    background-size: 1500px;
+    height: 300px;
+    background-position: center;
+    
+} 
+
+#page1 h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffffc7;
+    font-size: 2.5em;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#page1 h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333c2;
+    font-size: 2.5em;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#page1 p {
+    font-size: 1.2em;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#page1 body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(to bottom, #e0eafc, #cfdef3);
+    padding: 50px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+#page2 h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffffc7;
+    font-size: 2em;
+    margin: 0 auto;
+    font-size: 3em;
+
+}
+
+#page2 h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333c2;
+    font-size: 2.5em;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#page2 h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0f0f0fc2;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+
+#page2 p {
+    color: #666;
+    font-size: 1em;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+#page2 .leasons {
+    padding: 20px;
+    max-width: 900px;
+    margin: 10px;
+}
