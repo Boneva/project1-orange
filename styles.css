@@ -160,6 +160,7 @@ nav ul li a {
 
 .footer-content {
     background-color: #005bab;
+    background-image: image();
     color: white;
     padding: 20px;
     text-align: center;
@@ -178,10 +179,13 @@ nav ul li a {
     margin: 5px 0;
 }
 
+
+
 #page1 header {
     font-family: Arial, Helvetica, sans-serif;
     color:#f0f0f0;
     margin: 0 auto;
+    position: relative;
 }
 
 #page1 .About {
@@ -189,7 +193,7 @@ nav ul li a {
     background-size: 1500px;
     background-position: center;
     height: 300px;
-
+    position: relative;
 }
 
 #page1 .About2 {
@@ -197,6 +201,7 @@ nav ul li a {
     background-size: 1500px;
     height: 300px;
     background-position: center;
+    position: relative;
     
 } 
 
@@ -206,6 +211,7 @@ nav ul li a {
     font-size: 2.5em;
     max-width: 500px;
     margin: 0 auto;
+    position: relative;
 }
 
 #page1 h2 {
@@ -214,6 +220,7 @@ nav ul li a {
     font-size: 2.5em;
     max-width: 500px;
     margin: 0 auto;
+    position: relative;
 }
 
 #page1 p {
@@ -221,6 +228,7 @@ nav ul li a {
     color: #666;
     max-width: 600px;
     margin: 0 auto;
+    position: relative;
 }
 
 #page1 body {
@@ -228,6 +236,7 @@ nav ul li a {
     text-align: center;
     background: linear-gradient(to bottom, #e0eafc, #cfdef3);
     padding: 50px;
+    position: relative;
 }
 
 a {
