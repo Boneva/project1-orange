@@ -37,7 +37,7 @@ p {
 }
 
 /* Header */
-#page6-header {
+#page1-header {
     background-color: var(--color-dark-blue);
     padding: 10px 0;
     opacity: 0.9;
@@ -47,8 +47,8 @@ p {
     width: 100%;
 }
 
-#page6-logo {
-    height: 50px;
+#page1-logo {
+    height: 60px;
 }
 
 .navbar-toggler {
@@ -65,30 +65,30 @@ p {
     background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox%3D"0 0 30 30" xmlns%3D"http://www.w3.org/2000/svg"%3E%3Cpath stroke%3D"rgba%28255, 255, 255, 255%29" stroke-width%3D"2" stroke-linecap%3D"round" stroke-miterlimit%3D"10" d%3D"M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
 }
 
-#page6-nav {
+#page1-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-#page6-nav ul {
+#page1-nav ul {
     display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-#page6-nav li {
+#page1-nav li {
     margin: 0 15px;
 }
 
-#page6-nav a {
+#page1-nav a {
     color: white;
     text-decoration: none;
     padding: 5px 0;
 }
 
-#page6-nav a:hover {
+#page1-nav a:hover {
     border-bottom: 2px solid white;
 }
 
@@ -108,7 +108,7 @@ p {
     color: var(--color-white);
 }
 /* Main */
-#page6-main {
+#page1-main {
     padding: 20px;
     max-width: 1200px;
     margin: auto;
@@ -140,57 +140,10 @@ p {
 
 
 
-/* Contact Section */
-#page6-contact h1 {
-    font-size: 3em;
-    margin-bottom: 20px;
-}
 
-#page6-contact p {
-    font-size: 1.1rem;
-    margin-bottom: 30px;
-}
-
-.contact-option {
-    text-align: center;
-}
-
-.svg-container {
-    width: 100px;
-    height: 100px;
-    margin: auto;
-    background-color: var(--color-white);
-    border: 1px solid var(--color-light-gray);
-    border-radius: 5px;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.08);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-
-.contact-option img {
-    width: 60px;
-    height: 60px;
-}
-
-.contact-option p {
-    margin: 0;
-    color: var(--color-light-blue);
-    text-decoration: none;
-}
-
-.contact-option p a {
-    color: var(--color-light-blue);
-    text-decoration: none;
-}
-
-.contact-option p a:hover {
-    text-decoration: underline;
-}
 
 /* Footer */
-#page6-footer {
+#page1-footer {
     background-color: var(--color-light-gray);
     color: var(--color-dark-gray);
     text-align: center;
@@ -268,26 +221,26 @@ p {
         display: block;
     }
 
-    #page6-nav {
+    #page1-nav {
         flex-direction: column;
         align-items: flex-start;
     }
 
-    #page6-nav ul {
+    #page1-nav ul {
         display: none;
         flex-direction: column;
         width: 100%;
     }
 
-    #page6-nav ul.show {
+    #page1-nav ul.show {
         display: flex;
     }
 
-    #page6-nav li {
+    #page1-nav li {
         margin: 10px 0;
     }
 
-    #page6-nav a {
+    #page1-nav a {
         padding: 10px 0;
         width: 100%;
     }
@@ -325,15 +278,15 @@ p {
 }
 
 @media (max-width: 576px) {
-    #page6-header, #page6-footer {
+    #page1-header, #page1-footer {
         text-align: center;
     }
 
-    #page6-nav {
+    #page1-nav {
         text-align: center;
     }
 
-    #page6-nav ul {
+    #page1-nav ul {
         flex-direction: column;
         align-items: center;
     }
@@ -359,8 +312,8 @@ p {
         flex: 1 1 100%;
     }
 
-    #page6-main {
-        padding: 10px;
+    #page1-main {
+        padding: 30px;
     }
 
     .contact-option img {
@@ -397,15 +350,17 @@ p {
 } 
 
  h1 {
-    font-family: Arial, Helvetica, sans-serif;
     color: #ffffffc7;
     font-size: 2.5em;
     max-width: 500px;
     margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
 }
 
  h2 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     color: #333333c2;
     font-size: 2.5em;
     max-width: 500px;
